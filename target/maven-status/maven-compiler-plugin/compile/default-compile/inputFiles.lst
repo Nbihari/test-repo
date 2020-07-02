@@ -1,7 +1,9 @@
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/enums/MessageContentType.java
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/validations/GenericValidation.java
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/validations/Validation.java
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/utils/DateUtils.java
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/validations/ValidatorUtil.java
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/validations/GenericValidationResult.java
-/home/nimit/maxlife/backend-framework-service/common-module/src/main/java/com/mx/fw/common/enums/TemplateType.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/ContactProspectEmailRequestDTO.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/facade/ContactEmailService.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/EmailSendRequestDTO.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/EmailTemplateResponseDTO.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/EmailService.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/TemplateDataService.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/ContactEmailRequestDTO.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/TemplateEngineService.java
+/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/exceptions/TemplateNotFoundException.java
