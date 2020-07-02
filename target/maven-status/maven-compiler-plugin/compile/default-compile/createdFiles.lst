@@ -1,0 +1,7 @@
+com/mx/fw/common/validations/ValidatorUtil.class
+com/mx/fw/common/enums/TemplateType.class
+com/mx/fw/common/validations/GenericValidationResult.class
+com/mx/fw/common/enums/MessageContentType.class
+com/mx/fw/common/utils/DateUtils.class
+com/mx/fw/common/validations/Validation.class
+com/mx/fw/common/validations/GenericValidation.class
