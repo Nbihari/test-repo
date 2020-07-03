@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jul 02 21:46:32 IST 2020
+contract-module-0.0.1-SNAPSHOT-stubs.jar>=
+contract-module-0.0.1-SNAPSHOT.pom>=
+contract-module-0.0.1-SNAPSHOT.jar>=

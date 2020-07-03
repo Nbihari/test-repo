@@ -1,9 +1,0 @@
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/ContactProspectEmailRequestDTO.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/facade/ContactEmailService.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/EmailSendRequestDTO.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/EmailTemplateResponseDTO.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/EmailService.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/TemplateDataService.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/dto/ContactEmailRequestDTO.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/interfaces/TemplateEngineService.java
-/home/nimit/maxlife/backend-framework-service/contract-module/src/main/java/com/mx/fw/contracts/exceptions/TemplateNotFoundException.java
