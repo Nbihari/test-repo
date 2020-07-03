@@ -1,0 +1,16 @@
+{
+  "id" : "ae6e4477-8c8d-4776-bde0-5499c76756da",
+  "request" : {
+    "url" : "/templates?name=Contact-default",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"subject\":\"Test Subject\",\"messageContentType\":\"text\",\"name\":\"Contact\",\"templateType\":\"Mustache\",\"message\":\"Test message\"}]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "ae6e4477-8c8d-4776-bde0-5499c76756da"
+}
