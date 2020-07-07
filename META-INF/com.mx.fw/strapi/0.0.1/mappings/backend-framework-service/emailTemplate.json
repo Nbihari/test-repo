@@ -1,8 +1,13 @@
 {
-  "id" : "ae6e4477-8c8d-4776-bde0-5499c76756da",
+  "id" : "0ed1af2d-df3c-47c7-9d0c-d104af67b5e6",
   "request" : {
-    "url" : "/templates?name=Contact-default",
-    "method" : "GET"
+    "urlPath" : "/templates",
+    "method" : "GET",
+    "queryParameters" : {
+      "name" : {
+        "equalTo" : "Contact-default"
+      }
+    }
   },
   "response" : {
     "status" : 200,
@@ -12,5 +17,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "ae6e4477-8c8d-4776-bde0-5499c76756da"
+  "uuid" : "0ed1af2d-df3c-47c7-9d0c-d104af67b5e6"
 }

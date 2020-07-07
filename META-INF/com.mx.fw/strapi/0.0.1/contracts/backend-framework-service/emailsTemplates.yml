@@ -1,0 +1,17 @@
+description: Get Email Template By Name
+name: emailTemplate
+request:
+  url: /templates
+  queryParameters:
+    name: Contact-default
+  method: GET
+response:
+  status: 200
+  headers:
+    Content-Type: application/json
+  body:
+    - subject: Test Subject
+      messageContentType: text
+      name: Contact
+      templateType: Mustache
+      message: Test message
