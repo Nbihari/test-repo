@@ -1,0 +1,14 @@
+description: Send Email
+name: Send Email
+request:
+  url: /v1/contact/email
+  method: POST
+  headers:
+    Content-Type: application/json
+  body:
+    email: testmail@gmail.com
+    message: Test msg
+    subject: Test subject
+    name: Test User
+response:
+  status: 200
