@@ -11,7 +11,7 @@
   },
   "response" : {
     "status" : 200,
-    "body" : "[{\"subject\":\"Test Subject\",\"messageContentType\":\"text\",\"name\":\"Contact\",\"templateType\":\"Mustache\",\"message\":\"Test message\"}]",
+    "body" : "[{\"subject\":\"Test Subject\",\"messageContentType\":\"text\",\"name\":\"Contact\",\"templateType\":\"MUSTACHE\",\"message\":\"Test message\"}]",
     "headers" : {
       "Content-Type" : "application/json"
     },
