@@ -1,7 +1,7 @@
 ---
 request:
   method: "POST"
-  url: "/v1/contact/email"
+  url: "/backend-framework-service/api/v1/contact/email"
   urlPath: null
   queryParameters: {}
   headers: 
