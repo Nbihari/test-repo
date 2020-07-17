@@ -4,7 +4,8 @@ request:
   url: "/v1/contact/email"
   urlPath: null
   queryParameters: {}
-  headers: null
+  headers: 
+    Content-Type: application/json
   cookies: null
   body:
     email: "testmail@gmail.com"
