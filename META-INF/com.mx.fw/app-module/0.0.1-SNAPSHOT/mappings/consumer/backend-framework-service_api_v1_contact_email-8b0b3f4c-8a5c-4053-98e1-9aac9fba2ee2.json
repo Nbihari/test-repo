@@ -1,0 +1,26 @@
+{
+  "id" : "d5a90d03-c59a-44d9-9a70-7e936b1e693d",
+  "request" : {
+    "url" : "/v1/contact/email",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['email'] == 'testmail@gmail.com')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['message'] == 'Test message')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['name'] == 'Nimit')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['subject'] == 'Test subject')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "d5a90d03-c59a-44d9-9a70-7e936b1e693d"
+}
