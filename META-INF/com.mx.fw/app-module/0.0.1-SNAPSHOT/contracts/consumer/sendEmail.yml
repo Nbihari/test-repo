@@ -24,8 +24,6 @@ request:
   multipart: null
 response:
   status: 200
-  headers:
-    Content-Type: application/json
   cookies: null
   body: null
   bodyFromFile: null
