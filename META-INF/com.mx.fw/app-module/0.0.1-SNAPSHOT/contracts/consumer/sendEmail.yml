@@ -1,17 +1,16 @@
 ---
 request:
   method: "POST"
-  url: "/backend-framework-service/api/v1/contact/email"
+  url: "/v1/contact/email"
   urlPath: null
   queryParameters: {}
-  headers: 
-    Content-Type: application/json
+  headers: null
   cookies: null
   body:
-    email: "testmail@gmail.com"
-    message: "Test message"
-    name: "Nimit"
-    subject: "Test subject"
+    email: "test@gmail.com"
+    name: "test"
+    subject: "subject"
+    message: "message"
   bodyFromFile: null
   bodyFromFileAsBytes: null
   matchers:
@@ -24,6 +23,7 @@ request:
   multipart: null
 response:
   status: 200
+  headers: null
   cookies: null
   body: null
   bodyFromFile: null
@@ -38,7 +38,7 @@ input: null
 outputMessage: null
 description: null
 label: null
-name: "backend-framework-service_api_v1_contact_email-8b0b3f4c-8a5c-4053-98e1-9aac9fba2ee2"
+name: "v1_contact_email-092bf98b-dd0d-4be2-8000-248fbbadb187"
 priority: null
 ignored: false
 inProgress: false
