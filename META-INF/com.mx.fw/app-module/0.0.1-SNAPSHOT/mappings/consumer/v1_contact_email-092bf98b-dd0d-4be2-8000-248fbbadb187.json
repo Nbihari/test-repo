@@ -1,5 +1,5 @@
 {
-  "id" : "ae820db3-7d76-4c6a-9f95-fc3d5c5f287a",
+  "id" : "8b80ce80-71ff-4fb7-900e-4f62b2f784a3",
   "request" : {
     "url" : "/v1/contact/email",
     "method" : "POST",
@@ -22,5 +22,5 @@
     "status" : 200,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "ae820db3-7d76-4c6a-9f95-fc3d5c5f287a"
+  "uuid" : "8b80ce80-71ff-4fb7-900e-4f62b2f784a3"
 }
