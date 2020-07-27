@@ -24,16 +24,7 @@ request:
   multipart: null
 response:
   status: 200
-  headers:
-    X-Frame-Options: "DENY"
-    Keep-Alive: "timeout=60"
-    Cache-Control: "no-cache, no-store, max-age=0, must-revalidate"
-    X-Content-Type-Options: "nosniff"
-    Vary: "[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]"
-    Pragma: "no-cache"
-    Expires: "0"
-    X-XSS-Protection: "1; mode=block"
-    Date: "Mon, 27 Jul 2020 06:04:12 GMT"
+  headers: null
   cookies: null
   body: null
   bodyFromFile: null
