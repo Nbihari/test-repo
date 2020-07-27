@@ -5,7 +5,7 @@ request:
   urlPath: null
   queryParameters: {}
   headers:
-    Content-Type: application/json
+    Content-Type: "application/json"
   cookies: null
   body:
     email: "test@gmail.com"
@@ -24,6 +24,16 @@ request:
   multipart: null
 response:
   status: 200
+  headers:
+    X-Frame-Options: "DENY"
+    Keep-Alive: "timeout=60"
+    Cache-Control: "no-cache, no-store, max-age=0, must-revalidate"
+    X-Content-Type-Options: "nosniff"
+    Vary: "[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]"
+    Pragma: "no-cache"
+    Expires: "0"
+    X-XSS-Protection: "1; mode=block"
+    Date: "Mon, 27 Jul 2020 06:04:12 GMT"
   cookies: null
   body: null
   bodyFromFile: null
@@ -38,7 +48,7 @@ input: null
 outputMessage: null
 description: null
 label: null
-name: "v1_contact_email-092bf98b-dd0d-4be2-8000-248fbbadb187"
+name: "v1_contact_email-76cf30e6-ca92-4eff-bae3-8d0725366710"
 priority: null
 ignored: false
 inProgress: false
